@@ -1,0 +1,89 @@
+# Python environments and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated forecast data and maps
+*.grib
+*.grib2
+*.tif
+*.tiff
+*.nc
+*.nc4
+*.bz2
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+# Jupyter temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Forecast data and generated products
+archive/
+maps/
+data/
+*.grib
+*.grib2
+*.tif
+*.tiff
+*.nc
+*.nc4
+
+# Local configuration - review before sharing
+config.sh
+.env
+.env.*
+!.env.example
+
+# Diagnostic outputs and logs
+*.log
+# Backup and reference scripts
+*.before*
+*.working*
+*.reference*
+*.BASELINE*
+*.LOGO_APPROVED*
+*.rh_layout_reference*
+
+# Jupyter notebooks
+*.ipynb
+
+# Local data and configuration
+config/
+config.sh
+data/
+maps/
+archive/
+
+# Python environments and temporary files
+venv/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Forecast data
+*.grib
+*.grib2
+*.tif
+*.tiff
+*.nc
+*.nc4
+
+# Logs and credentials
+*.log
+.env
+.env.*
